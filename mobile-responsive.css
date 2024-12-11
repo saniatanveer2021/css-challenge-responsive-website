@@ -1,0 +1,272 @@
+@media only screen and (max-width: 480px){
+    .navigation {
+        padding: 5vw 2vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navigation>#rightButton{
+        display: none;
+    }
+    button i {
+        font-size: 6.2vw;
+    }
+    button h4 {
+        font-size: 5vw;
+    }
+    .navigation>#menu{
+        display: initial;
+        font-size: 7vw;
+    }
+    .page1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .page1 .leftSide{
+        gap: 5.4vw;
+    }
+    .leftSide .leftSection {
+        width: 95vw;
+        gap: 7.7vw;
+        padding: 15vw 5vw;
+        border-radius: 7vw;
+    }
+    .leftSection h2 {
+        white-space: nowrap;
+        font-size: 9.5vw;
+        line-height: 10.5vw;
+    }
+    .leftSection i {
+        font-size: 7vw;
+    }
+    .leftSection p {
+        font-size: 5vw;
+    }
+    .leftSection .buttons{
+        flex-direction: column;
+        gap: 4vw;
+    }
+    .buttons button {
+        padding: 2.4vw 1.4vw;
+        padding-left: 4.5vw;
+        white-space: nowrap;
+        gap: 4.7vw;
+    }
+    .buttons h4 {
+        font-size: 4.9vw;
+    }
+    .buttons button i {
+        font-size: 7.2vw;
+    }
+    .buttons>#button2 {
+        padding: 2.4vw 4.5vw;
+    }
+    .leftSide .leftBottomSection {
+        flex-direction: column;
+    }
+    .left h3 {
+        font-size: 15.5vw;
+    }
+    .right i {
+        font-size: 8.5vw;
+    }
+    .left h4 {
+        font-size: 5vw;
+    }
+    .leftBottomSection .bottomSquare {
+        width: 95vw;
+        padding: 15vw;
+        border-radius: 7vw;
+    }
+    .bottomSquare .right {
+        top: 10.6vw;
+        right: 9.6vw;
+    }
+    .page1 .rightSide {
+        height: 107vw;
+        width: 95vw;
+        margin-bottom: 13vw;
+    }
+    .rightSide .leftLook{
+        width: 28%;
+        border-radius: 7vw;
+    }
+    .rightSide .rightLook{
+        border-radius: 7vw;
+    }
+    #centerText button {
+        margin-bottom: 6.5vw;
+    }
+    .button button {
+        padding: 2.4vw 8.2vw;
+    }
+    .centerHeadings h2 {
+        font-size: 5.5vw;
+        line-height: 6.1vw;
+    }
+    .headingWithIMG img {
+        height: 4.5vw;
+        width: 9vw;
+    }
+    .centerHeadings p {
+        font-size: 3.8vw;
+        width: 92vw;
+        margin-top: 2.5vw;
+        line-height: 5.3vw;
+    }
+    .page2 .bottomCards {
+        flex-direction: column;
+        gap: 4.5vw;
+        margin-bottom: 8.5vw;
+    }
+    .card h4 {
+        font-size: 5.3vw;
+    }
+    .card p {
+        font-size: 3.8vw;
+    }
+    .bottomCards .card {
+        width: 92vw;
+        padding: 15vw 9vw;
+        border-radius: 7vw;
+    }
+    .card i {
+        top: 17%;
+        right: 10%;
+        font-size: 11.8vw;
+    }
+    .page3 .centerMaterial {
+        flex-direction: column;
+    }
+    .leftContact h2 {
+        white-space: nowrap;
+        font-size: 9.5vw;
+        line-height: 10.5vw;
+    }
+    .leftContact p{
+        font-size: 5vw;
+    }
+    .centerMaterial .leftContact{
+        width: 92vw;
+    }
+    .leftContact p {
+        font-size: 5vw;
+        width: 92vw;
+        margin-bottom: 7.7vw;
+    }
+    .leftContact>#lake {
+        margin-bottom: 7.7vw;
+    }
+    .leftContact .buttons {
+        flex-direction: column;
+        gap: 4vw;
+    }
+    .centerMaterial .rightSide{
+        height: 107vw;
+        width: 95vw;
+        margin-bottom: 13vw;
+    }
+    .page3 .centerMaterial {
+        gap: 7vw;
+    }
+    .page4 .cardsContainer {
+        flex-direction: column;
+        gap: 4.5vw;
+    }
+    .cardsContainer .card {
+        width: 95vw;
+        padding: 10vw 9vw;
+        border-radius: 7vw;
+        gap: 3.4vw;
+    }
+    .headingButton b {
+        font-size: 3.8vw;
+        white-space: nowrap;
+    }
+    .card i {
+        font-size: 3.8vw;
+    }
+    .headingButton button {
+        padding: 3.4vw 9.2vw;
+        margin-bottom: 2vw;
+    }
+    .card .profile {
+        gap: 3.5vw;
+    }
+    .profile .profilePicture {
+        height: 13.8vw;
+        width: 13.8vw;
+    }
+    .topHeadings .centerContant {
+        flex-direction: column;
+        align-items: center;
+    }
+    .leftText h2{
+        font-size: 5.5vw;
+        line-height: 6.1vw;
+    }
+    .topHeadings p{
+        font-size: 3.8vw;
+        width: 78vw;
+        margin-top: 2.5vw;
+        margin-bottom: 3vw;
+        line-height: 5.3vw;
+        text-align: center;
+    }
+    .colorHeading h3 {
+        font-size: 3.5vw;
+    }
+    .page6 .centerCover {
+        flex-direction: column;
+    }
+    .centerCover .bottomSectionText{
+        display: none;
+    }
+    form .upperDetails {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .upperDetails .formSection {
+        gap: 1.4vw;
+    }
+    .formSection label {
+        font-size: 4vw;
+    }
+    .formSection input {
+        width: 16.7vw;
+        padding: 4.9vw 46vw;
+        border-radius: 3vw;
+    }
+    .bottomDetails label{
+        font-size: 4vw;
+    }
+    .emailSection input{
+        width: 16.7vw;
+        padding: 4.9vw 46vw;
+        border-radius: 3vw;
+    }
+    .bottomDetails .messageSection input {
+        height: 54vw;
+    }
+    .bottomDetails .emailSection {
+        margin-bottom: 7vw;
+    }
+    .page5 .FAQSection {
+        margin-bottom: 8vw;
+    }
+    .page6 .centerCover {
+        height: 310vw;
+        width: 100vw;
+        border-radius: 7vw;
+        gap: 6vw;
+    }
+    .page7{
+        display: none;
+    }
+    #flower{
+        font-size: 10.8vw;
+    }
+    #fire{
+        top: 67%;
+        font-size: 10.8vw;
+    }
+}

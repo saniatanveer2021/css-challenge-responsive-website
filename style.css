@@ -1,0 +1,787 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.navigation{
+    position: relative;
+    z-index: 5;
+    background-color: #dbf0ff;
+    padding: 1vw 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation .button{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.503);
+    border-radius: 50vw;
+    padding: 0.4vw 0.4vw;
+}
+.button button{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3vw;
+    border-radius: 50vw;
+    padding: 0.4vw 1.2vw;
+    border: none;
+}
+button i{
+    font-size: 1.2vw;
+}
+button h4{
+    font-weight: 500;
+    font-size: 0.9vw;
+}
+.navigation .centerButtons{
+    padding: 0.5vw 0.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6vw;
+
+}
+.centerButtons a{
+    text-decoration: none;
+    font-size: 0.9vw;
+    color: black;
+}
+.navigation>#menu{
+    display: none;
+}
+.page1{
+    position: relative;
+    /* height: 100vh; */
+    width: 100vw;
+    background-color: #dbf0ff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2vw;
+    padding-top: 3vw;
+}
+.page1 .leftSide{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.4vw;
+}
+.leftSide .leftSection{
+    width: 43vw;
+    background-color: white;
+    padding: 3vw 2vw;
+    border-radius: 3vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.7vw;
+}
+.leftSection h2{
+    font-size: 3.5vw;
+    letter-spacing: 1.3px;
+    line-height: 4.5vw;
+}
+.leftSection i{
+    font-size: 3vw;
+}
+.leftSection p{
+    font-size: 1vw;
+    margin-bottom: 1.7vw;
+}
+.leftSection .buttons{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+.buttons button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0.4vw 0.4vw;
+    padding-left: 1.5vw;
+    white-space: nowrap;
+    border-radius: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.7vw;
+}
+.buttons h4{
+    font-size: 0.9vw;
+}
+.buttons button i{
+    font-size: 1.2vw;
+    background-color: white;
+    color: black;
+    border-radius: 50vw;
+    padding: 0.5vw;
+}
+.buttons>#button2{
+    padding-left: 0vw;
+    padding: 0.7vw 1.5vw;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.leftSide .leftBottomSection{
+    position: relative;
+    left: 0.3vw;
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+.leftBottomSection .bottomSquare{
+    width: 13vw;
+    padding: 2vw;
+    border-radius: 2vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #2D7DDA;
+    color: white;
+    margin-bottom: 4vw;
+}
+.left h3{
+    font-size: 2.5vw;
+}
+.left h4{
+    font-size: 1vw;
+    font-weight: 500;
+}
+.bottomSquare .right{
+    position: absolute;
+    top: 1.6vw;
+    right: 1.6vw;
+}
+.right i{
+    font-size: 1.5vw;
+}
+.leftBottomSection .simpleText{
+    background-color: #f4fbff;
+    color: #2D7DDA;
+}
+.page1 .rightSide{
+    height: 36vw;
+    width: 40vw;
+    position: relative;
+}
+.rightSide .leftLook{
+    height: 100%;
+    width: 27.5%;
+    background-image: url("nature.jpg");
+    background-position: left;
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    border-radius: 2vw;
+}
+.rightSide .rightLook{
+    height: 100%;
+    width: 70%;
+    background-image: url("nature.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    border-radius: 2vw;
+}
+.rightSide .bottomButtons{
+    position: absolute;
+    bottom: 1vw;
+    left: 7vw;
+}
+.bottomButtons .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+}
+.bottomButtons button{
+    padding: 0.5vw 1.5vw;
+    color: black;
+}
+.bottomButtons i{
+    color: yellow;
+}
+.bottomButtons h4{
+    font-size: 0.9vw;
+}
+#blur{
+    backdrop-filter: blur(10px);
+    background-color: rgb(255, 255, 255, 0.3);
+}
+#blur h4{
+    color: white;
+}
+.page2{
+    width: 100vw;
+    background-color: white;
+    position: relative;
+}
+.page2 .centerHeadings{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6vw;
+    margin-bottom: 5vw;
+}
+#centerText button{
+    background-color: #dbf0ff;
+    color: #2D7DDA;
+    margin-bottom: 1vw;
+}
+.centerHeadings h2{
+    font-size: 3.2vw;
+    letter-spacing: 1px;
+    line-height: 4.1vw;
+}
+.centerHeadings p{
+    font-size: 0.8vw;
+    width: 37vw;
+    margin-top: 0.5vw;
+    line-height: 1.3vw;
+    text-align: center;
+}
+.centerHeadings .headingWithIMG{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+.headingWithIMG h2{
+    color: #2D7DDA;
+}
+.headingWithIMG img{
+    height: 2.5vw;
+    width: 5vw;
+    border-radius: 50vw;
+}
+.headingWithIMG i{
+    font-size: 2.3vw;
+    color: #FFD857;
+}
+.page2 .bottomCards{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vw;
+    margin-bottom: 5.5vw;
+}
+.bottomCards .card{
+    position: relative;
+    width: 16vw;
+    padding: 5vw 2vw;
+    padding-bottom: 2vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8vw;
+    background-color: #f5f5f5;
+    transition: all 0.1s linear;
+}
+.card h4{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+.card p{
+    font-size: 0.8vw;
+}
+.card i{
+    position: absolute;
+    top: 11%;
+    right: 11%;
+    font-size: 2.8vw;
+    color: #2D7DDA;
+}
+.card:hover{
+    background-color: #2D7DDA;
+    color: white;
+}
+.card:hover i{
+    color: white;
+}
+.page3{
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5vw;
+    padding-top: 3vw;
+}
+.page3 .centerMaterial{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6vw;
+}
+.centerMaterial .leftContact{
+    position: relative;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.7vw;
+}
+.leftContact h2{
+    font-size: 3.5vw;
+    letter-spacing: 1.3px;
+    line-height: 3.5vw;
+}
+.leftContact>#lake{
+    color: #2D7DDA;
+    margin-bottom: 1.5vw;
+}
+.leftContact p{
+    font-size: 1vw;
+    width: 32vw;
+    margin-bottom: 2vw;
+}
+.leftContact .buttons{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+.centerMaterial .rightSide{
+    height: 36vw;
+    width: 40vw;
+    position: relative;
+}
+.page3 .divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+    margin-bottom: 3vw;
+}
+.divider h4{
+    font-size: 1.2vw;
+}
+.divider .firstLine{
+    height: 0.3vw;
+    width: 11.2vw;
+    background-color: #dadada;
+    border-radius: 50vw;
+    margin: 0vw 0.1vw;
+}
+.divider>#highLight{
+    background-color: #2D7DDA;
+}
+.page4{
+    width: 100vw;
+    position: relative;
+}
+.page4 .blackHeading h2{
+    color: black;
+}
+.page4 .centerHeadings{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6vw;
+    margin-bottom: 5vw;
+}
+.page4 .cardsContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vw;
+    margin-bottom: 5.5vw;
+}
+.cardsContainer .card{
+    position: relative;
+    width: 16.5vw;
+    padding: 2vw 2vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.4vw;
+    background-color: #f5f5f5;
+    transition: all 0.1s linear;
+}
+.cardsContainer .headingButton{
+    position: relative;
+}
+.headingButton button{
+    padding: 0.4vw 1.2vw;
+    border: 1px solid rgba(0, 0, 0, 0.165);
+    border-radius: 50vw;
+    background-color: transparent;
+}
+.headingButton b{
+    font-size: 0.8vw;
+    white-space: nowrap;
+}
+.headingButton i{
+    position: inherit;
+    font-size: 0.5vw;
+    margin: 0vw 0.4vw;
+}
+.card .profile{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+}
+.profile .profilePicture{
+    height: 2.8vw;
+    width: 2.8vw;
+    border-radius: 50vw;
+    background-image: url("nature.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.profilePicture p{
+    font-size: 0.1vw;
+}
+.card .ri-chat-voice-ai-line{
+    font-size: 2vw;
+    position: absolute;
+    top: 55%;
+}
+.cardsContainer .card:hover{
+    background-color: #2D7DDA;
+    color: white;
+}
+.cardsContainer .card:hover .ri-chat-voice-ai-line{
+    color: white;
+}
+.cardsContainer .card:hover button{
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.525);
+}
+.page5{
+    width: 100vw;
+    position: relative;
+}
+.page5 .topHeadings{
+    position: relative;
+    padding: 0vw 6vw;
+    padding-top: 3vw;
+    margin-bottom: 4vw;
+}
+.topHeadings .centerContant{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topHeadings .leftText{
+    display: flex;
+    align-items: center;
+    gap: 0.8vw;
+    white-space: nowrap;
+}
+.leftText h2{
+    font-size: 3.5vw;
+    letter-spacing: 1.3px;
+    line-height: 3.5vw;
+}
+.leftText>#questions{
+    color: #2D7DDA;
+}
+.leftText i{
+    font-size: 2.3vw;
+    color: #FFD857;
+}
+.topHeadings p{
+    font-size: 0.8vw;
+    width: 21vw;
+    margin-top: 0.5vw;
+    line-height: 1.3vw;
+    text-align: left;
+}
+.page5 .FAQSection{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8vw;
+    margin-bottom: 3vw;
+}
+.FAQSection .FAQ{
+    width: 88vw;
+    padding: 2vw 3vw;
+    border-radius: 1.5vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    transition: all 0.1s linear;
+}
+.FAQ .leftSectionText{
+    position: relative;
+}
+.leftSectionText .colorHeading{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1.2vw;
+}
+.colorHeading h3{
+    font-size: 1.9vw;
+}
+.colorHeading>#blue{
+    color: #2D7DDA;
+}
+.FAQ i{
+    font-size: 1.5vw;
+    border: 1px solid black;
+    background-color: black;
+    padding: 0.5vw;
+    border-radius: 50vw;
+    color: white;
+    position: absolute;
+    top: 26.5%;
+    right: 3vw;
+}
+.FAQ:hover{
+    background-color: #2D7DDA;
+    color: white;
+}
+.FAQ:hover .colorHeading{
+    color: white;
+}
+.FAQ:hover #blue{
+    color: white;
+}
+.FAQ:hover i{
+    border: 1px solid white;
+    background-color: white;
+    padding: 0.5vw;
+    border-radius: 50vw;
+    color: black;
+}
+.page6{
+    width: 100vw;
+    padding: 3vw 0vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+}
+.page6 .centerCover{
+    height: 41vw;
+    width: 92vw;
+    border-radius: 3vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    background-color: #CCE9FF;
+}
+.centerCover .leftSection{
+    gap: 1.5vw;
+}
+.centerCover .bottomSectionText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vw;
+}
+.bottomSectionText .leftPart{
+    position: relative;
+    left: 2vw;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+}
+.leftPart p{
+    font-size: 0.8vw;
+    width: 37vw;
+    margin-top: 0.5vw;
+    line-height: 1.3vw;
+}
+.leftPart i{
+    position: absolute;
+    top: 7%;
+    left: -2.7vw;
+    font-size: 1.3vw;
+    border: 1px solid #cdeaff;
+    background-color: #cdeaff;
+    color: #2D7DDA;
+    padding: 0.3vw;
+    border-radius: 50vw;
+}
+.centerCover .rightSide{
+    position: relative;
+}
+.rightSide form{
+    position: relative;
+    top: 1vw;
+}
+form .upperDetails{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+.upperDetails .formSection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4vw;
+    margin-bottom: 1vw;
+}
+.formSection label{
+    font-size: 1vw;
+}
+.formSection input{
+    width: 16.7vw;
+    padding: 0.9vw 2vw;
+    border: 1px solid rgba(0, 0, 0, 0.318);
+    border-radius: 1vw;
+}
+.bottomDetails label{
+    font-size: 1vw;
+}
+.bottomDetails .emailSection{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.4vw;
+    margin-bottom: 1vw;
+}
+.emailSection input{
+    width: 34.5vw;
+    padding: 0.9vw 2vw;
+    border: 1px solid rgba(0, 0, 0, 0.318);
+    border-radius: 1vw;
+}
+.bottomDetails .messageSection input{
+    height: 15vw;
+}
+form input{
+    font-size: 0.9vw;
+}
+.page7{
+    width: 100vw;
+    padding: 5vw 0vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page7 .upperContainer{
+    height: 31vw;
+    width: 92vw;
+    border-radius: 3vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    background-color: #CCE9FF;
+    margin-bottom: 3vw;
+}
+.upperContainer .leftSection{
+    width: 48vw;
+    gap: 1vw;
+    left: -2vw;
+}
+.upperContainer .colorfulHeadings{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.colorfulHeadings h2{
+    font-size: 2vw;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    line-height: 2.7vw;
+}
+.colorfulHeadings>#blue{
+    color: #2D7DDA;
+}
+.colorfulHeadings i{
+    font-size: 2vw;
+    padding-left: 0.5vw;
+    color: #FFD857;
+}
+.upperContainer .leftSection p{
+    width: 41vw;
+    margin-bottom: 1vw;
+}
+.upperContainer .rightSide {
+    width: 26vw;
+}
+.upperContainer .leftLook{
+    height: 20vw;
+    width: 10%;
+    top: 5.5vw;
+    right: 28.5vw;
+}
+.upperContainer .rightLook{
+    height: 20vw;
+    width: 25%;
+    top: 5.5vw;
+    right: 5vw;
+}
+.page7 .bottonSection{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 57vw;
+}
+.page7 .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+}
+.page7 h4{
+    font-size: 1.2vw;
+}
+.left i{
+    font-size: 1.5vw;
+    color: #FFD857;
+}
+.page7 .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2vw;
+}
+.page7 .rightLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3vw;
+}
+.link i{
+    font-size: 1.5vw;
+}
